@@ -13,6 +13,14 @@ namespace PPE3_Ninjago
         DateTime dateCreation;
         List<Carte> collectionCartes;
 
+        public Joueur(int idJoueur, string pseudo, List<Carte> collectionCartes)
+        {
+            this.idJoueur = idJoueur;
+            this.pseudo = pseudo;
+            this.dateCreation = DateTime.Now;
+            this.collectionCartes = new List<Carte>();
+        }
+
         public int IdJoueur
         {
             get
@@ -65,13 +73,7 @@ namespace PPE3_Ninjago
             }
         }
 
-        public Joueur(int idJoueur, string pseudo,List<Carte> collectionCartes)
-        {
-            this.idJoueur = idJoueur;
-            this.pseudo = pseudo;
-            this.dateCreation = DateTime.Now;
-            this.collectionCartes = collectionCartes;
-        }
+        
         public void AjoutCarte (Carte nouvelle)
         {
             collectionCartes.Add(nouvelle);

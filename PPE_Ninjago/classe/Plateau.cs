@@ -67,6 +67,15 @@ namespace PPE_Ninjago.classe
 
         }
 
+        public void compteCarte()
+        {
+
+        }
+
+        public void option()
+        {
+
+        }
 
     }
 }
