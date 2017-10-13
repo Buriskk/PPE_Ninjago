@@ -30,7 +30,11 @@ namespace PPE3_Ninjago
 
         public string GetAction ()
         {
-            return ("L'action " + this.nom + this.effet);
+            return ("L'action : " + this.nom + this.effet);
+        }
+
+        
         }
     }
+
 }

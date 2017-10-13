@@ -15,6 +15,7 @@ namespace PPE_Ninjago.classe
         {
             this.idPlateau = idPlateau;
             this.formatP = formatP;
+
         }
 
         public int IdPlateau
@@ -42,7 +43,30 @@ namespace PPE_Ninjago.classe
                 formatP = value;
             }
         }
+        public void poseCarte()
+        {
 
-       
+        }
+        public void combat()
+        {
+
+        }
+        public void selctionCombat()
+        {
+            /* for (i = (case.caseJ-1); i < (case.caseJ+1); i++)
+{
+   for ( t = (case.caseI-1); t < (case.caseI+1); t++)
+   {
+    if ()
+   }
+}  */
+
+        }
+        public void retournerCarte()
+        {
+
+        }
+
+
     }
 }
