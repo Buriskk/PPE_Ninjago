@@ -23,7 +23,7 @@ namespace PPE_Ninjago.classe
 
         public void recupCarte()
         {
-            /*adf*/
+            /*adfhjvyjuhfvkj*/
         }
     }
 }
