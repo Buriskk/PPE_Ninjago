@@ -51,7 +51,6 @@
     <Compile Include="classe\Carte.cs" />
     <Compile Include="classe\Case.cs" />
     <Compile Include="classe\Classx.cs" />
-    <Compile Include="classe\collection.cs" />
     <Compile Include="classe\Plateau.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
