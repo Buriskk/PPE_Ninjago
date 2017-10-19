@@ -13,6 +13,11 @@ namespace PPE_Ninjago.classe
         DateTime datecreation;
         List<Carte> colleCartes;
 
+        public void recupTest()
+        {
+            /*adfhjvyjuhfvkj*/
+        }
+
         public collection(string nom, DateTime datecreation, List<Carte> collection)
         {
             Nom = nom;
@@ -21,9 +26,6 @@ namespace PPE_Ninjago.classe
         }
 
 
-        public void recupCarte()
-        {
-            /*adfhjvyjuhfvkj*/
-        }
+       
     }
 }
