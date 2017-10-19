@@ -14,7 +14,7 @@ namespace PPE_Ninjago.classe
         public Case(int caseI, int caseJ)
         {
             this.caseI = caseI;
-            CaseJ = caseJ;
+            this.CaseJ = caseJ;
         }
 
         public int CaseI

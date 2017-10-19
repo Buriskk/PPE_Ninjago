@@ -74,6 +74,7 @@ namespace PPE_Ninjago.classe
 
         public void option()
         {
+            /*lfknzifbzeobezlinfezmn*/ 
 
         }
 
